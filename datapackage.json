@@ -1,0 +1,90 @@
+{
+  "name": "armazem-siafi-restos-pagar-folha-dados",
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "restos_pagar_folha",
+      "type": "table",
+      "profile": "tabular-data-resource",
+      "path": "data/restos_pagar_folha.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "hash": "sha256:b70023a1cc7086d1ab726911f497f7ac81d441a6451258d32bbe7c1f04370ba1",
+      "bytes": 175363,
+      "fields": 13,
+      "rows": 3678,
+      "schema": {
+        "fields": [
+          {
+            "name": "ano",
+            "type": "integer",
+            "source": "Ano de Exercício"
+          },
+          {
+            "name": "mes_cod",
+            "type": "integer",
+            "source": "Mês - Numérico"
+          },
+          {
+            "name": "ano_rp",
+            "type": "integer",
+            "source": "Ano Origem Folha Pagamento"
+          },
+          {
+            "name": "uo_cod",
+            "type": "integer",
+            "source": "Unidade Orçamentária - Código"
+          },
+          {
+            "name": "grupo_cod",
+            "type": "integer",
+            "source": "Grupo Despesa - Código"
+          },
+          {
+            "name": "modalidade_cod",
+            "type": "integer",
+            "source": "Modalidade Aplicação - Código"
+          },
+          {
+            "name": "iag_cod",
+            "type": "integer",
+            "source": "Identificador Orçamento - Código"
+          },
+          {
+            "name": "fonte_cod",
+            "type": "integer",
+            "source": "Fonte Recurso - Código"
+          },
+          {
+            "name": "ipu_cod",
+            "type": "integer",
+            "source": "Procedência - Código"
+          },
+          {
+            "name": "vlr_inscrito_rpp_folha",
+            "type": "number",
+            "source": "Valor Inscrito Folha"
+          },
+          {
+            "name": "vlr_despesa_liquidada_pagar_folha",
+            "type": "number",
+            "source": "Valor Despesa Liquidada a Pagar - Folha"
+          },
+          {
+            "name": "vlr_cancelado_rpp_folha",
+            "type": "number",
+            "source": "Valor Anulado Folha"
+          },
+          {
+            "name": "vlr_pago_rpp_folha",
+            "type": "number",
+            "source": "Valor Pago Folha"
+          }
+        ]
+      }
+    }
+  ],
+  "updated_at": "2024-02-20T12:27:38"
+}
