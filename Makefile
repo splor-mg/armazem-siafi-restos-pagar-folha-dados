@@ -1,6 +1,6 @@
 .PHONY: requirements all extract validate transform build check publish clean
 
-EXT = txt
+EXT = csv
 
 RESOURCE_NAMES := $(shell python main.py resources)
 OUTPUT_FILES := $(addsuffix .csv,$(addprefix data/,$(RESOURCE_NAMES)))

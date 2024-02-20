@@ -1,14 +1,7 @@
 name: armazem-siafi-restos-pagar-folha-dados
 resources:
-  - name: fact
-    path: data-raw/fact.txt
+  - name: restos_pagar_folha
+    path: data-raw/restos_pagar_folha.csv
     format: csv
     encoding: utf-8
-    dialect: dialect.yaml
-    schema: schemas/fact.yaml
-  - name: dim
-    path: data-raw/dim.txt
-    format: csv
-    encoding: utf-8
-    dialect: dialect.yaml
-    schema: schemas/dim.yaml
+    schema: schemas/restos_pagar_folha.yaml
