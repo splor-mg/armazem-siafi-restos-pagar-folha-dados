@@ -1,0 +1,4 @@
+Package: armazem-siafi-restos-pagar-folha-dados
+Imports:
+    renv
+Encoding: UTF-8
